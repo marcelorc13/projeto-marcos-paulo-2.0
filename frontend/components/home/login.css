@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#container {
+    width: 450px;
+    height: 502px;
+    border-radius: 8px;
+    margin-top: 70.5px;
+}
+
+#logo {
+    width: 74px;
+}
