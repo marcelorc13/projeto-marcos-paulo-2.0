@@ -23,9 +23,8 @@ export default function Login() {
                     <p>Ir para o Gmail</p>
                 </div>
 
-                <div className='w-full relative'>
-                    <input id='inputEmail' className='w-full rounded h-14 border border-gray-400 border-opacity-30' type='email'/>
-                    <label className='absolute left-4 text-color-cinza' htmlFor='inputEmail'>E-mail ou telefone</label>
+                <div id='contentEmail' className='w-full relative'>
+                    <input id='inputEmail' placeholder='Email ou telefone'h className='w-full rounded h-14 border border-gray-400 border-opacity-30' type='email' />
                 </div>
 
                 <div className='w-full flex justify-start'>
@@ -38,7 +37,10 @@ export default function Login() {
                     </p>
                 </div>
 
-                <div>7</div>
+                <div className='flex flex-row w-full justify-between font-medium items-center'>
+                    <button className='btnCriar'>Criar Conta</button>
+                    <button className='btnAvancar'>Avançar</button>
+                </div>
             </div>
 
             <div>

@@ -12,3 +12,25 @@
 #logo {
     width: 74px;
 }
+
+#inputEmail {
+    @apply relative
+}
+
+
+#inputEmail::placeholder {
+    @apply bg-white rounded-3xl absolute -top-2 left-2 text-color-cinza z-20
+}
+
+.btnCriar {
+    font-size: .875rem;
+    @apply text-color-btn
+}
+
+.btnAvancar {
+    width: 102px;
+    height: 36px;
+    font-size: .875rem;
+    border-radius: 4px;
+    @apply bg-color-btn text-white
+}
